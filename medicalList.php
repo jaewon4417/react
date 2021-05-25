@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:url" content="http://pineapple9716.dothome.co.kr">
-    <meta property="og:image" content="./images/tt.png">
+    <meta property="og:url" content="http://tsalt.dothome.co.kr">
+    <meta property="og:image" content="./images/snsicon.png">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="TEENYTIGER">
+    <meta property="og:site_name" content="아산병원">
     <meta property="og:locale" content="ko">
-    <meta property="og:title" content="TEENYTIGER">
-    <meta property="og:description" content="TEENYTIGER">
+    <meta property="og:title" content="아산병원">
+    <meta property="og:description" content="서울아산병원을 소개하는 글">
 
     <title>진료과 :: 아산병원</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./images/favicon.ico">  <!-- 주소표시줄 : 파비콘(16*16) -->
-    <link rel="apple-touch-icon" href="./images/tt.png">  <!-- 스마트폰 바탕화면 : 바로가기 아이콘(144*144)-->
+    <link rel="apple-touch-icon" href="./images/asan.png">  <!-- 스마트폰 바탕화면 : 바로가기 아이콘(144*144)-->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
 </head>
 <body>

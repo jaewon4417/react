@@ -2,8 +2,8 @@
     <div class="quickMenu">
         <div class="inner">
             <a href="map.html">오시는길</a>
-            <a href="patient.php">최근 본 상품</a>
-            <a href="#">마이페이지</a>
+            <a href="patient.php">최근 5년간 입원환자 통계</a>
+            <a href="#">진료/검사결과조회</a>
         </div>
     </div>        
     <div class="csCenter">

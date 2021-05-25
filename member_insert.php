@@ -24,7 +24,7 @@ $pw = $_POST["pw"];
 $irum = $_POST["irum"];
 $tel = $_POST["tel"];
 
-$con = mysqli_connect("localhost", "pineapple9716", "a27364417^^", "pineapple9716");
+$con = mysqli_connect("localhost", "tsalt", "truesalt9!", "tsalt");
 $sqlid = "select * from mobmember where id='$id'";
 $idresult = mysqli_query($con, $sqlid);
 $record_num = mysqli_num_rows($idresult);

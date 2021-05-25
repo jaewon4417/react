@@ -16,7 +16,7 @@
           if ( !$id ) {
             echo "아이디를 입력해 주세요.";
           } else {
-                $con = mysqli_connect("localhost", "pineapple9716", "a27364417^^", "pineapple9716");
+                $con = mysqli_connect("localhost", "tsalt", "truesalt9!", "tsalt");
                 $sql = "select * from mobmember where id='$id'";
                 $result = mysqli_query($con, $sql);
                 $num_record = mysqli_num_rows($result);  

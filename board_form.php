@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:url" content="http://pineapple9716.dothome.co.kr">
-    <meta property="og:image" content="./images/tt.png">
+    <meta property="og:url" content="http://tsalt.dothome.co.kr">
+    <meta property="og:image" content="./images/snsicon.png">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="teeny tiger">
+    <meta property="og:site_name" content="아산병원">
     <meta property="og:locale" content="ko">
-    <meta property="og:title" content="teeny tiger">
-    <meta property="og:description" content="teeny tiger">
+    <meta property="og:title" content="아산병원">
+    <meta property="og:description" content="서울아산병원을 소개하는 글">
 
     <title>로그인 :: 아산병원</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">

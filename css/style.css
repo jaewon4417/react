@@ -24,19 +24,10 @@ table { border-collapse: collapse; width:100% }
 }
 
 #header .inner {
-    display:flex; background:#035489;
+    display:flex; background:#33353f;
     justify-content:space-between;
     /* align-items:center; */
 }
-#header .lnb_menu img{
-    width:40px; margin:20px 0 0 15px;
-}
-
-#header .search img{
-     width:40px; margin:20px 15px 0 0 ;
- }
-#header .logo img { width:80px;}
-
 #header #navWrap {
     position:fixed; top:0; left:0;
     bottom:0; right:0;
@@ -60,10 +51,10 @@ table { border-collapse: collapse; width:100% }
 
 /* 섹션구역 */
 .mainContent .main_noti {
-    background:#0777B9 url(../images/main_noti.png) no-repeat;
+    background:#194c96 url(../images/main_noti.png) no-repeat;
     background-size:60px auto;
     color:#fff;
-    padding:0 30px;
+    padding:0 20px;
     height:50px; 
     overflow:hidden;
 }
@@ -73,9 +64,6 @@ table { border-collapse: collapse; width:100% }
     line-height:50px;
     padding-left:35px; 
 }
-.mainimg { background: #035489;}
-.mainimg img { width:100%;}
-
 
 #step_area { display:flex; flex-direction:column; height:406px; }
 #step_area .bwrap:nth-child(1) {   flex:2; }
@@ -97,11 +85,11 @@ table { border-collapse: collapse; width:100% }
     justify-content: center;
     align-items: center;
 }
-#step_area .bwrap .setArea .service { background:#2D7EA0; }
-#step_area .bwrap .setArea .ty01 { background:#4A9FC3; }
-#step_area .bwrap .setArea .ty02 { background:#53AED5; }
-#step_area .bwrap .setArea .num { background:#4B9FC3; }
-#step_area .bwrap .setArea .reserve { background:#79CBEF;}
+#step_area .bwrap .setArea .service { background:#4ab8bc; }
+#step_area .bwrap .setArea .ty01 { background:#589dd2; }
+#step_area .bwrap .setArea .ty02 { background:#ff912f; }
+#step_area .bwrap .setArea .num { background:#589dd2; }
+#step_area .bwrap .setArea .reserve { background:#8dca35;}
 
 
 #footer {
@@ -144,9 +132,8 @@ table { border-collapse: collapse; width:100% }
 /* 로그인 */
 .loginPage {
     padding:20px 0 200px;
-    text-align: center;
 }
-.loginContent p {padding:50px 0 20px 0;}
+
 
 /* 진료과 리스트 */
 .medicalListPage { padding:20px 0;

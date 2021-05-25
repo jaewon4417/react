@@ -77,7 +77,7 @@ if ( $upfile_name && !$upfile_error ) {
     $copied_file_name = "";
 }
 
-$con = mysqli_connect("localhost", "pineapple9716", "a27364417^^", "pineapple9716");
+$con = mysqli_connect("localhost", "tsalt", "truesalt9!", "tsalt");
 $sql = "insert into mobboard (id, irum, subject, content, regist_day, hit, file_name, file_type, file_copied) ";
 $sql .= "values('$userid', '$username', '$subject', '$content', '$regist_day', 0, '$upfile_name', '$upfile_type', '$copied_file_name')";
 mysqli_query($con, $sql);

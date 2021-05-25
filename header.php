@@ -17,7 +17,7 @@
 <header id="header">
     <div class="inner">
          <div id="lnb_menu" class="lnb_menu">
-             <img src="images/hamberger.png" alt="메뉴열기">
+             <img src="images/bg_header_lnb.png" alt="메뉴열기">
          </div>
          <div id="navWrap">
              <nav id="lnb">
@@ -58,10 +58,10 @@
              </nav>
          </div>
          <h1 class="logo">
-             <a href="index.php"><img src="images/teeny tiger.png" alt="teeny tiger"></a>
+             <a href="index.php"><img src="images/img_header_logo.png" alt="서울아산병원"></a>
          </h1>
          <div class="search">
-             <a href="#"><img src="images/serch.png" alt="검색"></a>
+             <a href="#"><img src="images/img_topSerch.png" alt="검색"></a>
          </div>
     </div>
  </header>

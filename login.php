@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:url" content="http://pineapple9716.dothome.co.kr">
+    <meta property="og:url" content="http://tsalt.dothome.co.kr">
     <meta property="og:image" content="./images/snsicon.png">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="teeny tiger">
+    <meta property="og:site_name" content="아산병원">
     <meta property="og:locale" content="ko">
-    <meta property="og:title" content="teeny tiger">
-    <meta property="og:description" content="teeny tiger">
+    <meta property="og:title" content="아산병원">
+    <meta property="og:description" content="서울아산병원을 소개하는 글">
 
-    <title>로그인 :: 티니타이거</title>
+    <title>로그인 :: 아산병원</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./images/favicon.ico">  <!-- 주소표시줄 : 파비콘(16*16) -->
-    <link rel="apple-touch-icon" href="./images/tt.png">  <!-- 스마트폰 바탕화면 : 바로가기 아이콘(144*144)-->
+    <link rel="apple-touch-icon" href="./images/asan.png">  <!-- 스마트폰 바탕화면 : 바로가기 아이콘(144*144)-->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -25,21 +25,20 @@
 
         <?php include 'header.php'; ?>
 
-        <section class="loginPage">
+         <section class="loginPage">
             <div class="loginContent">
-                <h2>Login</h2>
-                <p>RETURNING CUSTOMERS</p>
+                <h2>로그인</h2>
                 <form action="login_ok.php" method="post" name="login">
                 <p>
-                   <label for="id">ID</label>
+                   <label for="id">아이디</label>
                    <input type="text" id="id" name="id">
                 </p>
                 <p>
-                    <label for="pw">PassWord</label>
+                    <label for="pw">비밀번호</label>
                    <input type="password" id="pw" name="pw">
                 </p>
                 <p>
-                    <button type="button" onclick="chk_input()">Login</button>
+                    <button type="button" onclick="chk_input()">로그인</button>
                 </p>
                 </form>
             </div>

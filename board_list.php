@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:url" content="http://pineapple9716.dothome.co.kr">
-    <meta property="og:image" content="./images/tt.png">
+    <meta property="og:url" content="http://tsalt.dothome.co.kr">
+    <meta property="og:image" content="./images/snsicon.png">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="teeny tiger">
+    <meta property="og:site_name" content="아산병원">
     <meta property="og:locale" content="ko">
-    <meta property="og:title" content="teeny tiger">
-    <meta property="og:description" content="teeny tiger">
+    <meta property="og:title" content="아산병원">
+    <meta property="og:description" content="서울아산병원을 소개하는 글">
 
     <title>로그인 :: 아산병원</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./images/favicon.ico">  <!-- 주소표시줄 : 파비콘(16*16) -->
-    <link rel="apple-touch-icon" href="./images/tt.png">  <!-- 스마트폰 바탕화면 : 바로가기 아이콘(144*144)-->
+    <link rel="apple-touch-icon" href="./images/asan.png">  <!-- 스마트폰 바탕화면 : 바로가기 아이콘(144*144)-->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -55,6 +55,9 @@
                             $sql = "select * from mobboard order by num desc";
                             $result = mysqli_query($con, $sql);
                             $total_record = mysqli_num_rows($result);
+
+
+
                             
                             if ( isset($_GET["page"]) ) {
                                 $page = $_GET["page"];
@@ -85,11 +88,23 @@
                                 }
                                 $regist_day = $row["regist_day"];
                                 $hit = $row["hit"];
+
+                                $sqlcomm = "select * from comment where onum='$num'";
+                                $resultcomm = mysqli_query($con, $sqlcomm);
+                                $resultcomm_record = mysqli_num_rows($resultcomm);
+
+
                             ?>
 
                             <tr>
                                 <td><?= $number; ?></td>
-                                <td> <a href="board_view.php?num=<?=$num?>&page=<?=$page?>"><?=$subject;?></a> </td>
+                                <td> <a href="board_view.php?num=<?=$num?>&page=<?=$page?>"><?=$subject;?>
+                                    <?php
+                                        if ($resultcomm_record) {
+                                          echo "({$resultcomm_record})";
+                                        }
+                                    ?>
+                                </a> </td>
                                 <td><?= $irum; ?></td>
                                 <td><?= $file_image; ?></td>
                                 <td><?= $regist_day; ?></td>

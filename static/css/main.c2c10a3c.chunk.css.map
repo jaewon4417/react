@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,EAAI,QAAQ,CAAE,SAAS,CAAE,qBAAuB,CAChD,KAAO,kBAAmB,CAC1B,KAAO,SAAW","file":"main.c2c10a3c.chunk.css","sourcesContent":["* { margin:0; padding:0; box-sizing:border-box; }\nbody { background:#e9ecef }\n.red { color:#f00 }\n"]}

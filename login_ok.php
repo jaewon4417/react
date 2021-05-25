@@ -13,7 +13,7 @@
 $id = $_POST["id"];
 $pw = $_POST["pw"];
 
-$con = mysqli_connect("localhost", "pineapple9716", "a27364417^^", "pineapple9716");
+$con = mysqli_connect("localhost", "tsalt", "truesalt9!", "tsalt");
 $sql = "select * from mobmember where id='$id'";
 $result = mysqli_query($con, $sql);
 $count = mysqli_num_rows($result);

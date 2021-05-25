@@ -5,7 +5,7 @@ $irum = $_POST["irum"];
 $tel = $_POST["tel"];
 $num = $_GET["num"];
 
-$con = mysqli_connect("localhost", "pineapple9716", "a27364417^^", "pineapple9716");
+$con = mysqli_connect("localhost", "tsalt", "truesalt9!", "tsalt");
 $sql = "update mobmember set id='$id', pass='$pw', irum='$irum', tel='$tel' where num='$num'";
 mysqli_query($con, $sql);
 mysqli_close($con);
